@@ -9,7 +9,7 @@
 body{
   width: 100%;
   min-height: 100vh;
-  /* margin-inline: auto; */
+  margin-inline: auto;
   background-color: #e9eef0;
   font-family: 'Poppins', sans-serif; ;
 }
@@ -206,6 +206,34 @@ margin: 1% 0 5% 0;
 
 
         /* Blog click content End */
+
+        /* match section start */
+  .match-flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  } 
+  
+  
+  .match-flag b{
+    margin: 0 15px;
+  }
+
+  .match-flag img{
+    max-width: 100%;
+  }
+  
+  .match-details{
+    text-align: center;
+  }
+
+  .match-details h3{
+ 
+  }
+        /* match section End */
+
 
 
         /* Blogpost start */
