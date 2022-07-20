@@ -1,0 +1,309 @@
+                  /* Default Common CSS*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  /* margin-inline: auto; */
+  background-color: #e9eef0;
+  font-family: 'Poppins', sans-serif; ;
+}
+
+img{
+  /* max-width: 100%; */
+  /* display: block; */
+}
+
+h1{
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 900;
+  line-height: 1;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+margin-bottom: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: #161616;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  border: none;
+}
+
+                      /* Some Color Code
+
+Orchid Orange-- #FEA47F
+Red Orange--#ff3838
+Ending Navy blue-- #182C61 
+Sarawak White Pepper--#F8EFBA
+Blue Bell--#3B3B98
+Light Red--#ff4d4d
+Fusion Red--#fc5c65
+Desire(Red)--#eb3b5a
+Gloomy Purple--#8854d0
+Blue Gray--#778ca3
+Royal Blue--#3867d6
+Pico 8 Pink--#fd79a8
+Prunus Avium(Pink)--#e84393
+Shadowed Steel
+(Light Black)--#4b4b4b
+Baltic Sea(Dark Black)--#4b4b4b
+
+                          */
+
+                        /* font family name */
+
+/* font-family: 'Poppins', sans-serif; */
+
+                          /* Default Common CSS End*/
+
+
+                          /* Banner section Start */
+.main-banner{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100vh;
+} 
+
+.banner{
+background-color: #161616;
+display: flex;
+width: 80%;
+height: 80vh;
+border-radius: 25px;
+
+}
+
+.banner-text{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 7%;
+}
+
+.banner-text h1{
+  font-size: 4rem;
+  line-height: 1.4;
+  font-weight: 900;
+
+}
+
+.banner-text p{
+  font-size: 1.2rem;
+  line-height: 1.9;
+  margin-top: 5%;
+}
+
+.banner-btn{
+  margin-top: 5%;
+  font-size: 30px;
+  background-color: red;
+  color: white;
+  padding: 3% 4%;
+  border-radius: 5px;
+}
+
+.banner-img{
+  width: 50%;
+  background-image: url(/img/my-banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+}
+
+.banner-img img{
+  /* width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+   */
+
+  
+
+}
+                        /* Banner section End */
+
+
+                /* Blog section Start */
+.blog{
+width: 100%;
+height: auto;
+margin: 1% 0 5% 0;
+} 
+
+.main-blog{
+
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-gap:20px 20px;
+}
+
+      /* Blog click content start */
+
+.blog-click-content{
+
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+
+.click-menu{
+  background-color: black;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.upcomming{
+ background-color: #fff;
+ color:black ;
+ font-size: 20px;
+ font-weight: 700;
+ padding: 20px 15px;
+ margin: 0 35px;
+ border-radius: 5px;
+}
+
+.upcoming-match{
+ background-color: rgb(237, 15, 15);
+ color:rgb(243, 237, 237) ;
+ font-size: 20px;
+ font-weight: 700;
+ padding: 20px 15px;
+ margin: 0 35px; 
+ border-radius: 5px; 
+}
+
+.group{
+  background-color: #fff;
+ color:black ;
+ font-size: 20px;
+ font-weight: 700;
+ padding: 20px 15px;
+ margin: 0 35px;
+ border-radius: 5px;
+}
+
+.click-blog{
+  background-color: rgb(193, 18, 18);
+ color:white ;
+ font-size: 20px;
+ font-weight: 700;
+ padding: 20px 15px;
+ margin: 0 35px;
+ border-radius: 5px;
+}
+
+.click-blog a{
+  color: white;
+}
+
+
+        /* Blog click content End */
+
+
+        /* Blogpost start */
+
+.blogpost{
+padding: 4%;
+box-shadow:1px 1px 1px 1px rgb(207, 204, 204) ;
+border-radius: 3%;
+}
+
+.blogpost-img{
+border-radius: 8px;
+
+}
+
+.blogpost-img img{
+max-width: 100%;
+border-radius: 10px;
+} 
+
+
+.blogpost-btn button{
+margin: 15px 0;
+background-color: white;
+border: 1px solid black;
+border-radius: 5px;
+color: black;
+font-size: 20px;
+padding: 5px 15px;
+}
+
+.blogpost-heading{
+
+}
+
+.blogpost-icon {
+display: flex;
+justify-content: space-around;
+}
+/* blogpost match start */
+
+.blogpost-match{
+  padding: 4%;
+box-shadow:1px 1px 1px 1px rgb(207, 204, 204) ;
+border-radius: 3%;
+}
+
+/* blogpost match end */
+
+               /* Blog section End */
+
+              /* Footer section Start */
+footer{
+  background-color: #161616;
+  width: 100%;
+  height: 70vh;
+  color:#e4d8d8;
+  text-align: center;
+ 
+} 
+
+.main-footer{
+  padding-top: 10%;
+}
+
+
+.footer-menu a{
+  color: rgb(190, 176, 176);
+ 
+  margin: 0 10px ;
+}
+
+hr{
+  margin:3% 4%;
+  color: #2c2c2c;
+}
+                          /* Footer section End */
