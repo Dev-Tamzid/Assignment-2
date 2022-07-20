@@ -46,35 +46,11 @@ button{
   border: none;
 }
 
-                      /* Some Color Code
 
-Orchid Orange-- #FEA47F
-Red Orange--#ff3838
-Ending Navy blue-- #182C61 
-Sarawak White Pepper--#F8EFBA
-Blue Bell--#3B3B98
-Light Red--#ff4d4d
-Fusion Red--#fc5c65
-Desire(Red)--#eb3b5a
-Gloomy Purple--#8854d0
-Blue Gray--#778ca3
-Royal Blue--#3867d6
-Pico 8 Pink--#fd79a8
-Prunus Avium(Pink)--#e84393
-Shadowed Steel
-(Light Black)--#4b4b4b
-Baltic Sea(Dark Black)--#4b4b4b
-
-                          */
-
-                        /* font family name */
-
-/* font-family: 'Poppins', sans-serif; */
-
-                          /* Default Common CSS End*/
+              /* Default Common CSS End*/
 
 
-                          /* Banner section Start */
+              /* Banner section Start */
 .main-banner{
 display: flex;
 justify-content: center;
@@ -126,7 +102,7 @@ border-radius: 25px;
 
 .banner-img{
   width: 50%;
-  background-image: url(./img/my-banner.png);
+  background-image: url(./image/my-banner.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
